@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "types": ["cypress"]
+  },
+  "include": ["**/*.ts", "node_modules/cypress"] // Update this line to include your Cypress test files
+}
